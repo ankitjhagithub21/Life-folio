@@ -1,5 +1,5 @@
 import { styled, Box } from "@mui/material";
-import MyImage from "../../../assets/pic.png";
+
 import Resume from "../../../assets/resume.pdf";
 import {
   CustomButton,
@@ -41,7 +41,7 @@ export const AboutMe = () => {
     <SectionWrapper>
       <TitleWrapper>About Me</TitleWrapper>
       <AboutMeContainer>
-        <img src={MyImage} />
+        <img src="https://ankitjha.vercel.app/assets/profile-276bf50c.jpg" alt="my-image" />
         <DetailsWrapper>
           <div>{aboutMeInfo.aboutMe}</div>
           <div className="actions">
